@@ -1,16 +1,25 @@
 {
   "name": "particles",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple particles using HTML Canvas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc -p ."
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "lint": "tslint -p tsconfig.json"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escamilla/particles.git"
+  },
+  "author": "Joshua Escamilla <joshua.escamilla@selu.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/escamilla/game-of-life/issues"
+  },
+  "homepage": "https://github.com/escamilla/game-of-life#readme",
   "devDependencies": {
-    "typescript": "^3.9.2"
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
   }
 }
